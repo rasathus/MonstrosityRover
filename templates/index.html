@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block title %}
+    Monstrocity Rover
+{% endblock %}
+
+{% block doc_ready %}
+
+{% endblock %}
+
+{% block body %}
+    <h2>Monstrocity Rover</h2>
+    </br>
+    <p>Movement ! </p>
+    
+  // Commands to implement
+  // KI1100 == Kill all movement, set motors to 0 and update motor pos.
+  // LT0000 == Left Track, 0 or 1 representing direction 0 forwards 1 back.  value between 0 and 255 representing pwm val.
+  // RT0000 == Right Track, 0 or 1 representing direction 0 forwards 1 back.  value between 0 and 255 representing pwm val.
+  // BV0000 == Battery Voltage, triggers an alagoue pin read, and serial.write of value. 
+  // KA0000 == Keep Alive, the signal sent for heartbeat reset.
+  
+{% endblock %}

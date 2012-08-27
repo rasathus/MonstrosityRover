@@ -1,0 +1,47 @@
+#leftcolumn {
+    width: 350px;
+    float: left;
+}
+
+#rightcolumn {
+    width: 300px;
+    float: right;
+}
+
+#search {
+    text-align: right;
+}
+
+#search-hero {
+    padding: 30px 30px 30px 30px;
+}
+
+.ad {
+    margin: 10px 15px 10px 15px;
+    display:inline-block;
+	width: 110px;
+	// min-width: 70px;		/* you might not want this - and have other factors (eg: the div's content) determining minimum width */
+}
+
+
+#ad_holder {
+    max-height: 120px;
+    max-width: 600px;
+    margin: 0px auto;
+}
+
+.clear {
+    clear: both;
+}
+
+/*
+search.dl search.dt {
+    background:#5f9be3;
+    color:#fff;
+    float:left; 
+    font-weight:bold; 
+    margin-right:10px; 
+    padding:5px;  
+    width:100px; 
+}
+*/

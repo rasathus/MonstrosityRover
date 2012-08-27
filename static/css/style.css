@@ -1,0 +1,11 @@
+content {
+    min-height: 400px;
+}
+
+.centred {
+    margin: 0px auto;
+    text-align: center;      
+}
+.clear {
+    clear: both;
+}
